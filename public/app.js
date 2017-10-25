@@ -5,8 +5,7 @@ const url = "http://localhost:3000/data";
 fetch(url)
   .then(response => response.json())
   .then(data => {
-    img[0].src =
-      data[0].images[Math.floor(data[0].images.length * Math.random())];
+    img[0].src = data[0].images[Math.floor(data[0].images.length * Math.random())];
 
     $(function() {
       let slide_index = 0;
@@ -49,7 +48,7 @@ fetch(url)
       function slide(new_slide_index) {
         if (new_slide_index < 0 || new_slide_index >= slide_count) return;
         const margin_left_pc = new_slide_index * -100 + "%";
-        ul.animate({ "margin-left": margin_left_pc }, 800, function() {
+        ul.animate({ "margin-left": margin_left_pc }, 1000, function() {
           slide_index = new_slide_index;
         });
       }
