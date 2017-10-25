@@ -1,0 +1,16 @@
+{
+  "name": "javascript-carousel",
+  "version": "1.0.0",
+  "description": "Simple JavaScript carousel using jQuery & JSON server",
+  "main": "app.js",
+  "scripts": {
+    "start": "json-server --watch db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.12.0"
+  }
+}
