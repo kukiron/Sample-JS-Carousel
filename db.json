@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "title": "First block",
+      "images": [
+        "images/nature_1.jpg",
+        "images/nature_2.jpg",
+        "images/nature_3.jpg",
+        "images/nature_4.jpg"
+      ]
+    },
+    {
+      "title": "Second block",
+      "images": [
+        "images/nature_5.jpg",
+        "images/nature_6.jpg",
+        "images/nature_7.jpg",
+        "images/nature_8.jpg"
+      ]
+    },
+    {
+      "title": "Third block",
+      "images": [
+        "images/nature_9.jpg",
+        "images/nature_10.jpg",
+        "images/nature_11.jpg",
+        "images/nature_12.jpg"
+      ]
+    },
+    {
+      "title": "Fourth block",
+      "images": [
+        "images/nature_13.jpg",
+        "images/nature_14.jpg",
+        "images/nature_15.jpg",
+        "images/nature_16.jpg"
+      ]
+    }
+  ]
+}
